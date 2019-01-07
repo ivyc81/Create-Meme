@@ -1,0 +1,44 @@
+.input-form {
+    display: flex;
+    line-height:2;
+}
+
+.label-title {
+    width: 10%;
+}
+
+.user-input {
+    width: 90%;
+}
+
+.meme{
+    display: inline-block;
+    position:relative;
+    width: 300px;
+    height: 200px;
+    padding: 20px;;
+}
+
+#top{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    text-align:center;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#bottom{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#memephoto{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
