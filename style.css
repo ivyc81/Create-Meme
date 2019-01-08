@@ -1,6 +1,12 @@
+#title{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 36px;
+}
+
 .input-form {
     display: flex;
     line-height:2;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .label-title {
@@ -26,6 +32,10 @@
     text-align:center;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+    color: white;
+    font-family:Impact, Charcoal, sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 200%;
 }
 
 #bottom{
@@ -35,10 +45,44 @@
     text-align: center;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+    color: white;
+    font-family:Impact, Charcoal, sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 200%;
 }
 
 #memephoto{
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.submit{
+    font-size: 10px;   
+    margin-top: 16px;
+    padding: 4px 16px;
+    border-radius: 4px;
+    background-color: #fbfb8b;
+    font-family: "Comic Sans MS";
+    cursor: pointer;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+
+.submit:hover{
+    background-color: #bdbd68;
+}
+
+#removex{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    display: none;
+}
+
+.meme:hover #removex {
+	display: block;
 }
