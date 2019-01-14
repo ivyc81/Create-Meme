@@ -1,20 +1,32 @@
+header{
+    padding: 20px;
+}
+
 #title{
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 36px;
+    font-family: "Covered By Your Grace", "Comic Sans MS", cursive, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    background-color: #d9e4d9;
+    border-radius: 30px;
 }
 
 .input-form {
     display: flex;
     line-height:2;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 10px;
 }
 
 .label-title {
-    width: 10%;
+    width: 15%;
+    padding-top: 10px;
 }
 
 .user-input {
-    width: 90%;
+    width: 85%;
+    padding-top: 10px;
 }
 
 .meme{
@@ -78,11 +90,12 @@
     width: 10px;
     height: 10px;
     position: absolute;
-    right: 7px;
-    top: 7px;
+    right: 30px;
+    top: 30px;
     display: none;
+    cursor: pointer;
 }
 
 .meme:hover #removex {
-	display: block;
+    display: block;
 }
